@@ -20,15 +20,15 @@ class ScaffoldTest extends StatefulWidget{
 
 //暂时不知道什么意思
 class _ScaffoldTestState extends State<ScaffoldTest> with SingleTickerProviderStateMixin{
-  int _seletedIndex=1;
+  //int _seletedIndex=1;
   TabController _tabController;
   //tabBar和tabBarView的controller是一个,所以能够进行同步的变换
   List tabs=['新闻','历史','图片'];
-  void _onItemTapped(int index){
-    setState(() {
-     _seletedIndex=index; 
-    });
-  }
+  // void _onItemTapped(int index){
+  //   setState(() {
+  //    _seletedIndex=index; 
+  //   });
+  // }
   @override
   void initState(){
     super.initState();
